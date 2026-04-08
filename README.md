@@ -25,15 +25,19 @@ Il progetto implementa una **Convolutional Neural Network (CNN)** ottimizzata pe
    ```bash
    git clone https://github.com
    cd pytorch-mnist-from-scratch
+   ```
    
 2. **Installa le dipendenze:**
   ```bash
   pip install keras>=3.0.0 torch torchvision tensorboard
+  ```
 
 3. **Esecuzione:**
 Apri il notebook keras_tutorial.ipynb in VS Code o Jupyter Lab per avviare il training.
 
 ## 📊 Monitoraggio delle Metriche
+
 Per visualizzare le curve di accuratezza e perdita in tempo reale, avvia TensorBoard dalla root del progetto:
   ```bash
   tensorboard --logdir=logs
+  ```
